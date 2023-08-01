@@ -1,0 +1,65 @@
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 14px 5px rgb(214, 218, 132);
+}
+
+.card-body {
+    background-color: #ffffff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: none; 
+    border: none; 
+}
+
+
+.card-img {
+    height: 16rem;
+    object-fit: contain;
+    background: #153d58;
+}
+
+.card-title {
+    font-family: 'Striper';
+}
+
+.card-text {
+    font-family: 'Clash Display';
+    font-size: 1rem;
+    text-shadow: 2px 4px 9px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.btn {
+    font-family: 'Clash Display';
+    background: #e8e420;
+    color: rgb(23, 5, 112);
+    font-size:larger;
+    font-weight:bolder;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    border: 3px double rgb(0, 0, 0);
+}
+
+.card .card-title {
+    font-size: 1rem;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2.5rem; /* Adjust the value to set the maximum height of the card title container */
+  }
+  
+  .card .card-title::after {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+  }
+  
+  
+
+

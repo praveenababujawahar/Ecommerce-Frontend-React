@@ -1,0 +1,181 @@
+.carousel {
+    background-color: rgb(255, 255, 255);
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box shadow */
+}
+
+.featured {
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 3, 61);
+}
+
+.carousel-item {
+    height: 40rem;
+    position: relative;
+    outline: none !important; /* Remove outline */
+    border: none; /* Remove border */
+}
+
+.card .card-body {
+    background-color: #ffffff !important;
+}
+
+.carousel-item .item-price {
+    color: rgb(55, 20, 154);
+    font-weight: bold;
+    font-family: 'Clash Display';
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 0rem;
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 1rem;
+    background-color: black;
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel .carousel-item .card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 14px 5px rgb(214, 218, 132);
+}
+
+.carousel-item .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: none; 
+    border: none; 
+}
+
+.featured h4 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: 'Clash Display';
+    letter-spacing: 5px;
+    padding: 1rem 0;
+}
+
+.carousel-item .card img {
+    height: 16rem;
+    object-fit: contain;
+    background: #153d58;
+}
+
+.carousel-item .card-title {
+    font-family: 'Striper';
+}
+
+.carousel-item .card-text {
+    font-family: 'Clash Display';
+    font-size: 1rem;
+    text-shadow: 2px 4px 9px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.carousel-item .btn {
+    font-family: 'Clash Display';
+    background: #e8e420;
+    color: rgb(23, 5, 112);
+    font-size:larger;
+    font-weight:bolder;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    border: 3px double rgb(0, 0, 0);
+}
+
+.card .card-title {
+    font-size: 1rem;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 2.5rem; /* Adjust the value to set the maximum height of the card title container */
+  }
+  
+  .card .card-title::after {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+  }
+  
+  
+@media (max-width: 768px) {
+    .carousel-item .card img {
+        height: 16rem;
+        object-fit: contain;
+    }
+    .carousel-item .card {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    .featured h4 {
+        font-size: 3rem;
+        padding: 0;
+    }
+    .carousel-item .card .card-body {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    .carousel-item .card .card-text {
+        font-size: 1rem;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .featured .card {
+        min-height: 34rem;
+        max-height: 34rem;
+    }
+    .featured .card .card-body {
+        flex-direction: column;
+        justify-content: space-around;
+        color: black !important;
+    }
+    .featured .card .card-text {
+        font-size: 1rem !important;
+    }
+    .card .list-group-item {
+        font-size: 1.3rem;
+    }
+
+    .card .btn-primary {
+        font-size: 1rem;
+        width: 80% !important;
+    }
+    .card .card-title {
+        font-size: 1rem;
+        color: black;
+    }
+    .card .card-text {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .card .list-group-item {
+        font-size: 1.3rem;
+    }
+    .card .btn-primary {
+        font-size: 1rem;
+        width: 80% !important;
+    }
+    .card .card-title {
+        font-size: 1rem;
+        color: black;
+    }
+    .card .card-text {
+        font-size: 0.8rem !important;
+    }
+}

@@ -1,0 +1,95 @@
+.hero {
+    background: url('../assets/cover-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    padding: 0;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-n-slogan-container {
+    height: 18rem;
+    display: flex;
+    color: lightgoldenrodyellow;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.name-n-slogan-container img {
+    height: 150px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.name-n-slogan-container .slogan {
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-variant: small-caps;
+    transition: 0.5s all linear;
+}
+
+.name-n-slogan-container .name {
+    font-family: 'striper', sans-serif;
+    font-size: 6rem;
+    transition: 0.2s all linear;
+}
+
+@media (max-width: 768px) {
+    .name-n-slogan-container {
+        margin-bottom: 6rem;
+    }
+    .name-n-slogan-container .slogan {
+        font-size: 1.3rem;
+    }
+    .name-n-slogan-container .name {
+        font-size: 4rem;
+    }
+    .name-n-slogan-container i {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        height: 30rem;
+    }
+    .name-n-slogan-container {
+        height: 14rem;
+        max-width: 80%;
+    }
+    .name-n-slogan-container img {
+        height: 100px;
+    }
+    .name-n-slogan-container .slogan {
+        font-size: 1.6rem;
+    }
+    .name-n-slogan-container .name {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        height: 35rem;
+    }
+    .name-n-slogan-container {
+        height: 16rem;
+    }
+    .name-n-slogan-container .slogan {
+        font-size: 1.8rem;
+    }
+    .name-n-slogan-container .name {
+        font-size: 5.5rem;
+    }
+}

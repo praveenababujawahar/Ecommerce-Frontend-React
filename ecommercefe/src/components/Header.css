@@ -1,0 +1,73 @@
+/* Header.css */
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input {
+    width: 250px;
+    padding: 0.3rem 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    outline: none;
+    border: none;
+  }
+  
+  .search-box button {
+    background-color: #e8e420;
+    color: black;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  /* Cart Link */
+  .cart-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e8e420;
+  }
+  
+  /* Sign In Button */
+  .sign-in-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e8e420;
+  }
+  
+  .nav-2 {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    height: auto;
+    padding-top: 0;
+    margin: 0 !important;
+  }
+
+  .navbar .nav-link:hover {
+    font-size: large;
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(17, 43, 74);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .dropdown-menu a:hover,
+  .dropdown-menu a:focus {
+    color: #e8e420;
+    background-color: #20201e ;
+  }
+  
+  
+ 

@@ -1,0 +1,62 @@
+/* Remove default card bottom border */
+.card {
+    --bs-card-border-width: 0;
+  }
+  
+  /* Customizing the background of list-group */
+  .list-group {
+    --bs-list-group-bg: #1a384b;
+    --bs-list-group-color: rgba(255, 255, 255, 0.916);
+  }
+  
+  .card .list-group-item {
+    border: 0;
+  }
+  
+  footer {
+    background-color: white;
+    font-family: 'Clash Display';
+  }
+  
+  /* Footer card styles */
+  .card {
+    border: 0;
+  }
+  
+  footer h4.card-header {
+    background-color: rgb(16, 16, 15);
+    color: #e8e420;
+    font-family: 'Clash Display';
+  }
+  
+  footer .card ul {
+    min-height: 10rem;
+    background: rgb(16, 16, 15);
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  @media (min-width: 768px) {
+    footer .card ul {
+      min-height: 0rem;
+      background: rgb(16, 16, 15);
+    }
+    
+    .card .list-group-item {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .footer-kids.card ul {
+      min-height: 12rem;
+    }
+    
+    .card .list-group-item {
+      font-size: 1.3rem;
+    }
+  }
+  
